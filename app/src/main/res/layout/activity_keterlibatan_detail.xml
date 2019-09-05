@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/basiclifesupport"
+    tools:context="com.example.abyandafa.rescueambulance.Review.KeterlibatanDetail">
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/atas1"-->
+        <!--android:background="@color/fontColor"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+        <!--<ImageView-->
+            <!--android:id="@+id/detail_kembali"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:src="@drawable/ic_back"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Detail"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:textSize="20dp"-->
+            <!--android:textStyle="bold"-->
+            <!--/>-->
+    <!--</LinearLayout>-->
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_below="@id/atas1"-->
+        <!--android:layout_marginBottom="5dp">-->
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+            <!--<LinearLayout-->
+                <!--android:id="@+id/atas2"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:background="@android:color/white">-->
+                <!--<TextView-->
+                    <!--android:id="@+id/detail_lokasi"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:layout_marginBottom="8dp"-->
+                    <!--android:layout_marginLeft="20dp"-->
+                    <!--android:text="Jl. Teknik Kimia"/>-->
+            <!--</LinearLayout>-->
+
+            <!--<TextView-->
+                <!--android:layout_below="@+id/atas2"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Detail Waktu"-->
+                <!--android:textColor="@color/hitams"-->
+                <!--android:layout_marginLeft="16dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:id="@+id/atas3"-->
+                <!--android:layout_marginBottom="5dp"-->
+                <!--/>-->
+            <!--<LinearLayout-->
+                <!--android:layout_below="@+id/atas3"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@android:color/white"-->
+                <!--android:id="@+id/atas4"-->
+                <!--android:padding="10dp"-->
+                <!--android:orientation="horizontal">-->
+                <!--<LinearLayout-->
+
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:orientation="vertical">-->
+                    <!--<TextView-->
+                        <!--android:id="@+id/detail_waktu_kejadian"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="20.20"-->
+                        <!--android:textColor="@color/hitams"/>-->
+                    <!--<TextView-->
+                        <!--android:id="@+id/detail_tanggal_kejadian"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="Sab, 9 Des"/>-->
+                    <!--<TextView-->
+                        <!--android:id="@+id/detail_waktu_awam"-->
+                        <!--android:layout_marginTop="10dp"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="20.20"-->
+                        <!--android:textColor="@color/hitams"/>-->
+                    <!--<TextView-->
+                        <!--android:id="@+id/detail_tanggal_awam"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="Sab, 9 Des"/>-->
+                    <!--<TextView-->
+                        <!--android:id="@+id/detail_waktu_ambulan"-->
+                        <!--android:layout_marginTop="10dp"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="20.20"-->
+                        <!--android:textColor="@color/hitams"/>-->
+                    <!--<TextView-->
+                        <!--android:id="@+id/detail_tanggal_ambulan"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="Sab, 9 Des"/>-->
+                    <!--<TextView-->
+                        <!--android:id="@+id/detail_waktu_selesai"-->
+                        <!--android:layout_marginTop="10dp"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="20.20"-->
+                        <!--android:textColor="@color/hitams"/>-->
+                    <!--<TextView-->
+                        <!--android:id="@+id/detail_tanggal_selesai"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="Sab, 9 Des"/>-->
+                <!--</LinearLayout>-->
+                <!--<ImageView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:src="@drawable/ic_timeline"/>-->
+                <!--<LinearLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="vertical">-->
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:textColor="@color/hitams"-->
+                        <!--android:text="Waktu Kejadian"/>-->
+                    <!--<TextView-->
+                        <!--android:layout_marginTop="27dp"-->
+                        <!--android:textColor="@color/hitams"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="Waktu Pertolongan Orang Awam"/>-->
+                    <!--<TextView-->
+                        <!--android:layout_marginTop="27dp"-->
+                        <!--android:textColor="@color/hitams"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="Waktu Pertolongan Ambulan"/>-->
+                    <!--<TextView-->
+                        <!--android:layout_marginTop="27dp"-->
+                        <!--android:textColor="@color/hitams"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="Waktu Selesai Pertolongan"/>-->
+                <!--</LinearLayout>-->
+
+            <!--</LinearLayout>-->
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/atas4"-->
+                <!--android:id="@+id/atas5"-->
+                <!--android:textColor="@color/hitams"-->
+                <!--android:text="Follow up"-->
+                <!--android:layout_marginLeft="16dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:layout_marginBottom="5dp"/>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@android:color/white"-->
+                <!--android:layout_below="@+id/atas5"-->
+                <!--android:id="@+id/atas6"-->
+                <!--android:orientation="vertical">-->
+                <!--<android.support.v7.widget.CardView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content">-->
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content">-->
+                        <!--<TextView-->
+                            <!--android:id="@+id/detail_ambulan_nopol"-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="L 40 PO"-->
+                            <!--android:textSize="17dp"-->
+                            <!--android:layout_marginLeft="10dp"-->
+                            <!--android:textColor="@color/hitams"-->
+                            <!--android:textStyle="bold"/>-->
+                    <!--</LinearLayout>-->
+                <!--</android.support.v7.widget.CardView>-->
+                <!--<TextView-->
+                    <!--android:id="@+id/detail_followup"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="15dp"-->
+                    <!--android:layout_marginRight="15dp"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:layout_marginBottom="5dp"-->
+                    <!--android:teFollowUpActivityowup ambulan follow up ambulan follow up ambulan"/>-->
+            <!--</LinearLayout>-->
+
+            <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/atas6"-->
+                <!--android:background="@android:color/white"-->
+                <!--android:id="@+id/atas7"-->
+                <!--android:layout_marginTop="10dp">-->
+                <!--<RatingBar-->
+                    <!--android:id="@+id/detail_rating"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:rating="0.0"-->
+                    <!--android:scaleY="0.5"-->
+                    <!--android:scaleX="0.5"-->
+                    <!--android:progressTint="#FFC34C"-->
+                    <!--android:layout_centerHorizontal="true"-->
+                    <!--android:numStars="5"-->
+                    <!--/>-->
+                <!--<Button-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_below="@id/detail_rating"-->
+                    <!--android:layout_centerHorizontal="true"-->
+                    <!--android:layout_marginBottom="5dp"-->
+                    <!--android:text="Isi review"-->
+                    <!--android:visibility="gone"-->
+                    <!--android:id="@+id/detail_isi_review"/>-->
+            <!--</RelativeLayout>-->
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/atas7"-->
+                <!--android:id="@+id/atas8"-->
+                <!--android:textColor="@color/hitams"-->
+                <!--android:text="Komentar"-->
+                <!--android:layout_marginLeft="16dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:layout_marginBottom="5dp"-->
+
+                <!--/>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@android:color/white"-->
+                <!--android:layout_below="@+id/atas8"-->
+                <!--android:id="@+id/atas9"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/detail_komentar"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="15dp"-->
+                    <!--android:layout_marginRight="15dp"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:layout_marginBottom="5dp"-->
+                    <!--android:teFollowUpActivityowup ambulan follow up ambulan follow up ambulan"/>-->
+            <!--</LinearLayout>-->
+
+
+        <!--</RelativeLayout>-->
+    <!--</ScrollView>-->
+
+
+
+
+
+
+
+</RelativeLayout>

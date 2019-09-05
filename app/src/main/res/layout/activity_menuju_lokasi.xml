@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abyandafa.rescueambulance.CodeBlue.Locate.MenujuLokasi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="19"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:id="@+id/fragment"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+        </fragment>
+
+        <Button
+            android:id="@+id/konfirmasiAction"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:text="Konfirmasi"
+            android:background="@color/konfirmasiPB"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/layoutKonfirmasi"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/basiclifesupport"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="22dp"
+                android:text="Konfirmasi Kejadian"
+                android:textAlignment="center"
+                android:textColor="@color/biru_background"
+                android:textStyle="bold"
+                android:id="@+id/textView14" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView14"
+                android:text="Apakah kejadian benar terjadi?"
+                android:textAlignment="center"
+                android:id="@+id/textView15" />
+
+            <Button
+                android:id="@+id/verifBenar"
+                android:text="Benar"
+                android:background="@color/konfirmasiBenar"
+                android:textColor="@android:color/white"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true" />
+
+            <Button
+                android:id="@+id/verifSalah"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/verifBenar"
+                android:layout_below="@+id/verifBenar"
+                android:layout_marginTop="14dp"
+                android:background="@color/konfirmasiTidak"
+                android:text="Tidak"
+                android:textColor="@android:color/white" />
+
+            <ImageView
+                android:id="@+id/cancelKonfir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/ic_close_x" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

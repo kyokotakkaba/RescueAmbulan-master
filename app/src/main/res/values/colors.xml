@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6087A4</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background">#184a6b</color>
+    <color name="putih">#FFFFFF</color>
+    <color name="login_background">#dcdddd</color>
+    <color name="biru_background">#3E5B75</color>
+    <color name="primary">#dcdddd</color>
+    <color name="birubaru">#3E5D73</color>
+    <color name="field_background">#CBCBCB</color>
+    <color name="fontColor">#3E5D73</color>
+
+
+    <!--PanicNotificiation-->
+    <color name="fontTunggu">#DACE94</color>
+    <color name="backgroundTunggu">#52546D</color>
+    <color name="backgroundJauh">#629E93</color>
+    <color name="fontJarakJauh">#40828E</color>
+    <color name="fonLokasiJauh">#082E50</color>
+    <color name="backgroundPertanyaanJauh">#40828E</color>
+
+    <color name="backgroundDekat">#bc3749</color>
+    <color name="fontJarakDekat">#A92E3E</color>
+    <color name="fonLokasiDekat">#902836</color>
+    <color name="backgroundPertanyaanDekat">#902836</color>
+
+    <!--PanicResponse-->
+    <color name="konfirmasiPB">#3E5B75</color>
+    <color name="konfirmasiBenar">#184886</color>
+    <color name="konfirmasiTidak">#193357</color>
+
+
+    <color name="splashscreen">#41A8CB</color>
+    <color name="basiclifesupport">#E9F2F5</color>
+
+    <color name="code_blue_color">#00529b</color>
+
+
+    <color name="dekat_pertanyaan">#902836</color>
+    <color name="jauh_pertanyaan">#0000a0</color>
+    <color name="notif_dekat">#F75254</color>
+    <color name="notif_jauh">#20Aff5</color>
+    <color name="hitams">#000000</color>
+    <color name="review_belum">#fc5d5d</color>
+
+
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Rescue Ambulance</string>
+    <string name="Keterlibatan">Keterlibatan</string>
+    <string name="pengaduan">Pengaduan</string>
+    <string name="keluar">Keluar</string>
+    <string name="openDrawer">Drawer dibuka</string>
+    <string name="closeDrawer">Drawer ditutup</string>
+    <string name="text_pengaduan">Masalah seperti apa yang ingin anda sampaikan</string>
+    <string name="Pengaduan">Silahkan laporkan masalah anda terkait penggunaan Rescue.id</string>
+</resources>
